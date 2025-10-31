@@ -1,5 +1,5 @@
 package com.tnsif.Day19.v1;
 
-public class Palindrome {
-
+public interface Palindrome<T> {
+	boolean checkPalindrome(T data);
 }

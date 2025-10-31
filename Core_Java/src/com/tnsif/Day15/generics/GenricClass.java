@@ -1,5 +1,16 @@
 package com.tnsif.Day15.generics;
 
-public class GenricClass {
-
+//Generic Class
+class GenericClass<T>
+{
+	T data;
+	void set(T data)
+	{
+		this.data=data;
+	}
+	
+	T get()
+	{
+		return data;
+	}
 }
